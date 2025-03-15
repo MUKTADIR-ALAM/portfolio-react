@@ -8,7 +8,7 @@ export default function MainLayout() {
     <>
     <div className="w-11/12 mx-auto">
       <Navbar />
-      <div>
+      <div className="min-h-screen">
         <Outlet />
       </div>
     </div>

@@ -4,10 +4,10 @@ import { FaX } from "react-icons/fa6";
 
 export default function Hero() {
   return (
-    <div className="hero  min-h-screen">
+    <div id="hero" className="hero  min-h-screen">
       <div className="hero-content gap-28  flex-col lg:flex-row-reverse justify-between">
         <img
-          src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+          src="https://i.ibb.co.com/SXJXZXyy/IMG-20250204-224418-removebg-preview.jpg"
           className="max-w-sm rounded-lg shadow-2xl"
         />
         <div>
@@ -25,13 +25,13 @@ export default function Hero() {
             <a target="_blank" href="https://github.com/MUKTADIR-ALAM">
               <FaGithub size={20} />
             </a>
-            <a target="_blank" href="https://github.com/MUKTADIR-ALAM">
+            <a target="_blank" href="https://www.facebook.com/muktadir.alam.0">
               <FaFacebook size={20} />
             </a>
-            <a target="_blank" href="https://github.com/MUKTADIR-ALAM">
+            <a target="_blank" href="https://www.linkedin.com/in/muktadir-alam/">
               <FaLinkedin size={20} />
             </a>
-            <a target="_blank" href="https://github.com/MUKTADIR-ALAM">
+            <a target="_blank" href="https://x.com/mukta010101">
               <FaX size={20} />
             </a>
           </div>

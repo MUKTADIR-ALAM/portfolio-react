@@ -6,10 +6,10 @@ import { SiDaisyui } from "react-icons/si";
 
 export default function Skills() {
   return (
-    <div>
+    <div id="skills">
       <div className="text-4xl font-bold text-center my-8">My Skills</div>
       {/* fontend skills */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 space-y-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 space-y-10 ">
         {/* fontend Skills */}
 
         <div className="space-y-5">
